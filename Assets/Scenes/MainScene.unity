@@ -515,7 +515,7 @@ MonoBehaviour:
   item: {fileID: 263041446}
   key:
     target: 0
-    key: startTimer
+    key: updateTime
   delayTimeSeconds: 1
   triggers:
   - target: 0
@@ -558,8 +558,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalGimmickKey:
     key:
-      target: 2
-      key: end
+      target: 0
+      key: endTime
     item: {fileID: 0}
   logic:
     statements:
@@ -569,7 +569,7 @@ MonoBehaviour:
           key: end
           parameterType: 0
         expression:
-          type: 0
+          type: 1
           value:
             type: 0
             constant:
@@ -584,8 +584,25 @@ MonoBehaviour:
               key: 
               type: 6
           operatorExpression:
-            operator: 0
+            operator: 7
             operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
             - type: 0
               value:
                 type: 0
@@ -681,7 +698,7 @@ MonoBehaviour:
     - singleStatement:
         targetState:
           target: 0
-          key: end
+          key: endTime
           parameterType: 0
         expression:
           type: 1
@@ -1909,8 +1926,8 @@ MonoBehaviour:
   item: {fileID: 916420492}
   key:
     target: 0
-    key: startCreate
-  delayTimeSeconds: 1
+    key: updateCreate
+  delayTimeSeconds: 0.2
   triggers:
   - target: 0
     specifiedTargetItem: {fileID: 0}
@@ -3119,8 +3136,28 @@ MonoBehaviour:
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
   - target: 1
+    specifiedTargetItem: {fileID: 263041446}
+    key: updateTime
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+  - target: 1
     specifiedTargetItem: {fileID: 916420492}
     key: startCreate
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+  - target: 1
+    specifiedTargetItem: {fileID: 916420492}
+    key: updateCreate
     type: 0
     value:
       boolValue: 0
