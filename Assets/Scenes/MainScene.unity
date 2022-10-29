@@ -560,7 +560,7 @@ MonoBehaviour:
     key:
       target: 0
       key: endTime
-    item: {fileID: 0}
+    item: {fileID: 263041446}
   logic:
     statements:
     - singleStatement:
@@ -569,12 +569,12 @@ MonoBehaviour:
           key: end
           parameterType: 0
         expression:
-          type: 1
+          type: 0
           value:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}

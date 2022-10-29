@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 7243071881058697694}
   key:
-    target: 0
+    target: 2
     key: end
 --- !u!1 &7243071882766620563
 GameObject:

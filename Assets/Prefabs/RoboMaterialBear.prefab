@@ -196,7 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 492353970255754583}
   key:
-    target: 0
+    target: 2
     key: end
 --- !u!1001 &2158062509970644946
 PrefabInstance:
