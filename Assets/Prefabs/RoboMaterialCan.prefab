@@ -15,8 +15,9 @@ GameObject:
   - component: {fileID: 7243071881058697680}
   - component: {fileID: 7243071881058697681}
   - component: {fileID: 7243071881058697682}
+  - component: {fileID: 2292726510445411031}
   m_Layer: 14
-  m_Name: RoboMaterial
+  m_Name: RoboMaterialCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7243071881058697684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -150,6 +151,22 @@ MonoBehaviour:
   key:
     target: 0
     key: hitReactor
+--- !u!114 &2292726510445411031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7243071881058697684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 7243071881058697694}
+  key:
+    target: 0
+    key: end
 --- !u!1 &7243071882766620563
 GameObject:
   m_ObjectHideFlags: 0
