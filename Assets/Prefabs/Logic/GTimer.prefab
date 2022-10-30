@@ -160,64 +160,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 30
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: end
-          parameterType: 0
-        expression:
-          type: 1
-          value:
-            type: 0
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: 
-              type: 6
-          operatorExpression:
-            operator: 7
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: CountAddition
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 30
+                  integerValue: 60
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
@@ -333,7 +276,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 30
+                  integerValue: 60
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
@@ -383,7 +326,7 @@ MonoBehaviour:
         targetState:
           target: 2
           key: CountAddition
-          parameterType: 0
+          parameterType: 3
         expression:
           type: 0
           value:
