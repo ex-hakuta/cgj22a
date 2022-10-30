@@ -50,14 +50,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: resetMaterial204
+      key: resetMaterial304
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material204
+          key: material304
           parameterType: 3
         expression:
           type: 0
@@ -109,14 +109,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: addMaterial204
+      key: addMaterial304
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material204
+          key: material304
           parameterType: 3
         expression:
           type: 1
@@ -148,7 +148,7 @@ MonoBehaviour:
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
                   target: 2
-                  key: material204
+                  key: material304
                   type: 3
               operatorExpression:
                 operator: 0
@@ -1907,14 +1907,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: resetMaterial205
+      key: resetMaterial305
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material205
+          key: material305
           parameterType: 3
         expression:
           type: 0
@@ -1966,14 +1966,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: addMaterial205
+      key: addMaterial305
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material205
+          key: material305
           parameterType: 3
         expression:
           type: 1
@@ -2005,7 +2005,7 @@ MonoBehaviour:
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
                   target: 2
-                  key: material205
+                  key: material305
                   type: 3
               operatorExpression:
                 operator: 0
@@ -2252,14 +2252,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: resetMaterial201
+      key: resetMaterial301
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material201
+          key: material301
           parameterType: 3
         expression:
           type: 0
@@ -2311,14 +2311,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: addMaterial201
+      key: addMaterial301
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material201
+          key: material301
           parameterType: 3
         expression:
           type: 1
@@ -2350,7 +2350,7 @@ MonoBehaviour:
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
                   target: 2
-                  key: material201
+                  key: material301
                   type: 3
               operatorExpression:
                 operator: 0
@@ -4303,14 +4303,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: resetMaterial203
+      key: resetMaterial303
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material203
+          key: material303
           parameterType: 3
         expression:
           type: 0
@@ -4362,14 +4362,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: addMaterial203
+      key: addMaterial303
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material203
+          key: material303
           parameterType: 3
         expression:
           type: 1
@@ -4401,7 +4401,7 @@ MonoBehaviour:
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
                   target: 2
-                  key: material203
+                  key: material303
                   type: 3
               operatorExpression:
                 operator: 0
@@ -8848,14 +8848,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: resetMaterial202
+      key: resetMaterial302
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material202
+          key: material302
           parameterType: 3
         expression:
           type: 0
@@ -8907,14 +8907,14 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: addMaterial202
+      key: addMaterial302
     item: {fileID: 0}
   logic:
     statements:
     - singleStatement:
         targetState:
           target: 2
-          key: material202
+          key: material302
           parameterType: 3
         expression:
           type: 1
@@ -8946,7 +8946,7 @@ MonoBehaviour:
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
                   target: 2
-                  key: material202
+                  key: material302
                   type: 3
               operatorExpression:
                 operator: 0
