@@ -4031,6 +4031,7 @@ GameObject:
   - component: {fileID: 1358194971}
   - component: {fileID: 1358194965}
   - component: {fileID: 1358194964}
+  - component: {fileID: 1358194972}
   m_Layer: 0
   m_Name: Reactor
   m_TagString: Untagged
@@ -4283,6 +4284,65 @@ MonoBehaviour:
                   target: 0
                   key: weightSum
                   type: 3
+              operatorExpression:
+                operator: 0
+                operands: []
+--- !u!114 &1358194972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358194962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 0
+      key: hit
+    item: {fileID: 1358194967}
+  logic:
+    statements:
+    - singleStatement:
+        targetState:
+          target: 2
+          key: subtractSpawnCount
+          parameterType: 0
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
               operatorExpression:
                 operator: 0
                 operands: []
