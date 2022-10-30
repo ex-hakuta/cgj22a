@@ -111,7 +111,6 @@ GameObject:
   - component: {fileID: 2363174894218281532}
   - component: {fileID: 2363174894218281523}
   - component: {fileID: 3603551720555138162}
-  - component: {fileID: 2363174894218281522}
   - component: {fileID: 5743408788245848401}
   - component: {fileID: 2363174894218281521}
   m_Layer: 14
@@ -146,9 +145,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2363174894218281527}
   serializedVersion: 2
-  m_Mass: 0.0000001
+  m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0
+  m_AngularDrag: 0.5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -222,42 +221,6 @@ MonoBehaviour:
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &2363174894218281522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2363174894218281527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 2363174894218281533}
-  collisionEventType: 0
-  collisionType: -1
-  triggers:
-  - target: 3
-    specifiedTargetItem: {fileID: 0}
-    key: weight
-    type: 3
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 16
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-  - target: 3
-    specifiedTargetItem: {fileID: 0}
-    key: hit
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 3
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!114 &5743408788245848401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +271,63 @@ MonoBehaviour:
                   boolValue: 0
                   floatValue: 0
                   integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: weightSum
+          parameterType: 3
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 3
+              boolValue: 1
+              floatValue: 0
+              integerValue: 16
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 2
+            operands:
+            - type: 0
+              value:
+                type: 1
+                constant:
+                  type: 3
+                  boolValue: 1
+                  floatValue: 0
+                  integerValue: 16
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: weightSum
+                  type: 3
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 3
+                  boolValue: 1
+                  floatValue: 0
+                  integerValue: 8
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:

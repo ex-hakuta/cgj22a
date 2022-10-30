@@ -288,6 +288,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1221379900666479159, guid: dfa90ee130943914da7ef1520a31a233, type: 3}
   m_PrefabInstance: {fileID: 1390473965}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &164424452 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4878203197085407396, guid: ca3888024f323134db07abca69b4b738, type: 3}
+  m_PrefabInstance: {fileID: 332555915}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &166550997 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2976480344106732746, guid: 26bd45c4a2c293640bcb5d1d7942cc52, type: 3}
@@ -359,14 +364,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4924660750290283270, guid: 7b6f8d27d3c720e4d8e75ff567b11b2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6794259727376528985, guid: 7b6f8d27d3c720e4d8e75ff567b11b2e, type: 3}
-      propertyPath: globalGimmickKey.item
-      value: 
-      objectReference: {fileID: 1358194967}
-    - target: {fileID: 6794259727376528985, guid: 7b6f8d27d3c720e4d8e75ff567b11b2e, type: 3}
-      propertyPath: globalGimmickKey.key.target
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4026,12 +4023,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1358194963}
   - component: {fileID: 1358194970}
-  - component: {fileID: 1358194969}
   - component: {fileID: 1358194967}
-  - component: {fileID: 1358194971}
-  - component: {fileID: 1358194965}
   - component: {fileID: 1358194964}
-  - component: {fileID: 1358194972}
   m_Layer: 0
   m_Name: Reactor
   m_TagString: Untagged
@@ -4081,81 +4074,6 @@ MonoBehaviour:
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1358194965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358194962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d06d8dc2ce9e442ab2712de694945b2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1358194967}
-  key:
-    target: 0
-    key: hit
-  logic:
-    statements:
-    - singleStatement:
-        targetState:
-          target: 0
-          key: weightSum
-          parameterType: 3
-        expression:
-          type: 1
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 0
-              key: 
-              type: 6
-          operatorExpression:
-            operator: 2
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: weightSum
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: weight
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
 --- !u!114 &1358194967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4172,30 +4090,6 @@ MonoBehaviour:
     value: 8617106492643948311
   itemName: "\u30EA\u30A2\u30AF\u30BF\u30FC"
   size: {x: 0, y: 0, z: 0}
---- !u!114 &1358194969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358194962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f90a8458122ef47c3b840e286a75994a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1358194967}
-  triggers:
-  - target: 0
-    specifiedTargetItem: {fileID: 0}
-    key: weightSum
-    type: 3
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!54 &1358194970
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4212,140 +4106,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1358194971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358194962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d06d8dc2ce9e442ab2712de694945b2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1358194967}
-  key:
-    target: 2
-    key: reset
-  logic:
-    statements:
-    - singleStatement:
-        targetState:
-          target: 0
-          key: weightSum
-          parameterType: 3
-        expression:
-          type: 0
-          value:
-            type: 0
-            constant:
-              type: 3
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 0
-              key: 0
-              type: 3
-          operatorExpression:
-            operator: 4
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: weightSum
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: weightSum
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
---- !u!114 &1358194972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358194962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 0
-      key: hit
-    item: {fileID: 1358194967}
-  logic:
-    statements:
-    - singleStatement:
-        targetState:
-          target: 2
-          key: subtractSpawnCount
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 0
-            constant:
-              type: 1
-              boolValue: 1
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: 
-              type: 6
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
 --- !u!1001 &1390473965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6445,6 +6205,90 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d20c725a6abde846a91e41f3bb56feb, type: 3}
+--- !u!1 &1922789213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922789214}
+  - component: {fileID: 1922789215}
+  m_Layer: 0
+  m_Name: help
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1922789214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922789213}
+  m_LocalRotation: {x: 0, y: 0.98533356, z: -0, w: -0.17063937}
+  m_LocalPosition: {x: -5.73, y: 4.34, z: -1.3}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 164424452}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 199.65, z: 0}
+--- !u!212 &1922789215
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922789213}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 5f61165c83f2bfe428f5d356809fb083, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 20.2, y: 14.65}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!4 &1939301172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ca3888024f323134db07abca69b4b738, type: 3}

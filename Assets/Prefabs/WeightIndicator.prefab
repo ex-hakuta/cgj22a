@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 6794259727376528998}
   - component: {fileID: 6794259727376528985}
   - component: {fileID: 4357078644620045002}
+  - component: {fileID: 1537254690252506887}
   m_Layer: 0
   m_Name: 'Text '
   m_TagString: Untagged
@@ -311,7 +312,7 @@ MonoBehaviour:
       key: weightSum
     item: {fileID: 0}
   parameterType: 3
-  format: "\u73FE\u5728\u306E\u91CD\u91CF\n{0:D3}"
+  format: "\u73FE\u5728\u306E\u91CD\u91CF\n{0:D3}\u30C8\u30F3"
 --- !u!114 &4357078644620045002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,5 +326,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 1, y: -1}
+  m_EffectDistance: {x: 3, y: 3}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1537254690252506887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6794259727376528987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3, y: 3}
   m_UseGraphicAlpha: 1

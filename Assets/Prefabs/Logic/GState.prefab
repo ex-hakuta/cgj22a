@@ -138,7 +138,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 100
+                  integerValue: 400
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
@@ -195,7 +195,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 100
+                  integerValue: 400
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
@@ -343,7 +343,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 100
+                  integerValue: 200
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
@@ -400,7 +400,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 100
+                  integerValue: 200
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
@@ -548,7 +548,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 100
+                  integerValue: 300
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:
@@ -605,7 +605,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 100
+                  integerValue: 300
                   vector2Value: {x: 0, y: 0}
                   vector3Value: {x: 0, y: 0, z: 0}
                 sourceState:

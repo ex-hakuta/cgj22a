@@ -65,6 +65,16 @@ MonoBehaviour:
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
+  - target: 4
+    specifiedTargetItem: {fileID: 0}
+    key: weightSum
+    type: 3
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1139340785774231680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,6 +336,46 @@ MonoBehaviour:
         targetState:
           target: 2
           key: CountAddition
+          parameterType: 3
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 3
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: weightSum
           parameterType: 3
         expression:
           type: 0
