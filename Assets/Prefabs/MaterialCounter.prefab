@@ -410,7 +410,7 @@ MonoBehaviour:
               type: 3
               boolValue: 0
               floatValue: 0
-              integerValue: 0
+              integerValue: 4
               vector2Value: {x: 0, y: 0}
               vector3Value: {x: 0, y: 0, z: 0}
             sourceState:
@@ -450,7 +450,7 @@ MonoBehaviour:
               type: 3
               boolValue: 0
               floatValue: 0
-              integerValue: 101
+              integerValue: 100
               vector2Value: {x: 0, y: 0}
               vector3Value: {x: 0, y: 0, z: 0}
             sourceState:
@@ -1571,7 +1571,7 @@ MonoBehaviour:
               type: 3
               boolValue: 0
               floatValue: 0
-              integerValue: 0
+              integerValue: 4
               vector2Value: {x: 0, y: 0}
               vector3Value: {x: 0, y: 0, z: 0}
             sourceState:
@@ -1611,7 +1611,7 @@ MonoBehaviour:
               type: 3
               boolValue: 0
               floatValue: 0
-              integerValue: 301
+              integerValue: 300
               vector2Value: {x: 0, y: 0}
               vector3Value: {x: 0, y: 0, z: 0}
             sourceState:
@@ -3302,7 +3302,47 @@ MonoBehaviour:
               type: 3
               boolValue: 0
               floatValue: 0
-              integerValue: 0
+              integerValue: 4
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: maxArm
+          parameterType: 3
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 3
+              boolValue: 0
+              floatValue: 0
+              integerValue: 200
               vector2Value: {x: 0, y: 0}
               vector3Value: {x: 0, y: 0, z: 0}
             sourceState:
