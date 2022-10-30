@@ -221,7 +221,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
