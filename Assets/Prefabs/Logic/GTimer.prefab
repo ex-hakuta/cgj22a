@@ -282,7 +282,7 @@ MonoBehaviour:
                 sourceState:
                   target: 2
                   key: CountAddition
-                  type: 6
+                  type: 3
               operatorExpression:
                 operator: 0
                 operands: []

@@ -308,7 +308,7 @@ MonoBehaviour:
   globalGimmickKey:
     key:
       target: 2
-      key: WeightValue
+      key: weightSum
     item: {fileID: 0}
   parameterType: 3
   format: "\u73FE\u5728\u306E\u91CD\u91CF\n{0:D3}"

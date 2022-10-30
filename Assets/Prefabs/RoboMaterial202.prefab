@@ -277,6 +277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: can02
       objectReference: {fileID: 0}
+    - target: {fileID: 1349758433509556, guid: c3a6605c6e87e4b919edad9c335cd0ed, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4975130206643636, guid: c3a6605c6e87e4b919edad9c335cd0ed, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -303,11 +307,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4975130206643636, guid: c3a6605c6e87e4b919edad9c335cd0ed, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4975130206643636, guid: c3a6605c6e87e4b919edad9c335cd0ed, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4975130206643636, guid: c3a6605c6e87e4b919edad9c335cd0ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
