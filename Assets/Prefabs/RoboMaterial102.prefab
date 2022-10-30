@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 2458234257897889928
-  itemName: "\u6876"
+  itemName: "\u304A\u3051"
   size: {x: 0, y: 0, z: 0}
 --- !u!114 &1406636511134959646
 MonoBehaviour:

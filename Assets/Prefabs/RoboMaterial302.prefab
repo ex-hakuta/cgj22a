@@ -70,7 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id:
     value: 2458234257897889928
-  itemName: "\u30BF\u30A4\u30E4"
+  itemName: "\u304F\u3064\u4E0B"
   size: {x: 0, y: 0, z: 0}
 --- !u!114 &3140014856179544895
 MonoBehaviour:
