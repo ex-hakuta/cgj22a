@@ -13,6 +13,10 @@ GameObject:
   - component: {fileID: 3625770219354531148}
   - component: {fileID: 3625770219354531149}
   - component: {fileID: 3625770219354531150}
+  - component: {fileID: 1514822297064968082}
+  - component: {fileID: 2221420838019132100}
+  - component: {fileID: 3615337361651847524}
+  - component: {fileID: 5624225020087173140}
   m_Layer: 0
   m_Name: MaterialSpawn
   m_TagString: Untagged
@@ -93,6 +97,54 @@ MonoBehaviour:
         integerValue: 0
         vector2Value: {x: 0, y: 0}
         vector3Value: {x: 0, y: 0, z: 0}
+  - weight: 1
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: 201
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+        vector2Value: {x: 0, y: 0}
+        vector3Value: {x: 0, y: 0, z: 0}
+  - weight: 1
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: 202
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+        vector2Value: {x: 0, y: 0}
+        vector3Value: {x: 0, y: 0, z: 0}
+  - weight: 1
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: 301
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+        vector2Value: {x: 0, y: 0}
+        vector3Value: {x: 0, y: 0, z: 0}
+  - weight: 1
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: 302
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+        vector2Value: {x: 0, y: 0}
+        vector3Value: {x: 0, y: 0, z: 0}
 --- !u!114 &3625770219354531149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +185,86 @@ MonoBehaviour:
   itemTemplateId:
     value: 1640657453794595118
   spawnPoint: {fileID: 3625770219602398314}
+--- !u!114 &1514822297064968082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625770219354531145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3625770219354531143}
+  key:
+    target: 0
+    key: 201
+  itemTemplate: {fileID: 2363174894218281533, guid: 5314fd514e1742045992a4f3c9f72d4e, type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 3625770219354531144}
+--- !u!114 &2221420838019132100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625770219354531145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3625770219354531143}
+  key:
+    target: 0
+    key: 202
+  itemTemplate: {fileID: 5950519854504901708, guid: 0f0113798c211084abf20178d58cc241, type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 3625770219354531144}
+--- !u!114 &3615337361651847524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625770219354531145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3625770219354531143}
+  key:
+    target: 0
+    key: 301
+  itemTemplate: {fileID: 1892693296422450255, guid: bcee46abcda57324a9d8f8e994e6201b, type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 3625770219354531144}
+--- !u!114 &5624225020087173140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625770219354531145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3625770219354531143}
+  key:
+    target: 0
+    key: 302
+  itemTemplate: {fileID: 3140014856179544894, guid: f0b5bf54b6c412c43bd7031f0253543e, type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 3625770219354531144}
 --- !u!1 &3625770219602398315
 GameObject:
   m_ObjectHideFlags: 0

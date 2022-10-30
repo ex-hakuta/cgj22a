@@ -450,7 +450,7 @@ MonoBehaviour:
               type: 3
               boolValue: 0
               floatValue: 0
-              integerValue: 0
+              integerValue: 101
               vector2Value: {x: 0, y: 0}
               vector3Value: {x: 0, y: 0, z: 0}
             sourceState:
@@ -507,7 +507,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -547,7 +547,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -587,7 +587,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -627,7 +627,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -667,7 +667,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -707,7 +707,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -747,7 +747,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -787,7 +787,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -1611,7 +1611,7 @@ MonoBehaviour:
               type: 3
               boolValue: 0
               floatValue: 0
-              integerValue: 0
+              integerValue: 301
               vector2Value: {x: 0, y: 0}
               vector3Value: {x: 0, y: 0, z: 0}
             sourceState:
@@ -1668,7 +1668,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -1708,7 +1708,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -1748,7 +1748,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -1788,7 +1788,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -1828,7 +1828,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3342,7 +3342,7 @@ MonoBehaviour:
               type: 3
               boolValue: 0
               floatValue: 0
-              integerValue: 0
+              integerValue: 201
               vector2Value: {x: 0, y: 0}
               vector3Value: {x: 0, y: 0, z: 0}
             sourceState:
@@ -3399,7 +3399,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3439,7 +3439,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3479,7 +3479,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3519,7 +3519,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3559,7 +3559,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3599,7 +3599,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3639,7 +3639,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3679,7 +3679,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3719,7 +3719,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3759,7 +3759,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3799,7 +3799,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3839,7 +3839,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
@@ -3879,7 +3879,7 @@ MonoBehaviour:
             type: 0
             constant:
               type: 1
-              boolValue: 0
+              boolValue: 1
               floatValue: 0
               integerValue: 0
               vector2Value: {x: 0, y: 0}
