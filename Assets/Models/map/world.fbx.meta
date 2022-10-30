@@ -12,13 +12,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: display_mt
-    second: {fileID: 2100000, guid: 3f30e759af66d8a429b0e7c3b2700352, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: floor02_mt
-    second: {fileID: 2100000, guid: 827789baa56a1fb4ebc8e01aed909401, type: 2}
+      name: floor2_mt
+    second: {fileID: 2100000, guid: b7f54befa1893c74ba0fb0279bb34972, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -27,18 +22,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: cc8d83256e473e6458fc1b789f15910e, type: 2}
+      name: mike1_mt
+    second: {fileID: 2100000, guid: 2b1f4fb24aed4c54da64ace263929577, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: mike02_mt
-    second: {fileID: 2100000, guid: 468c3a534ca4bd8479228a32451cc019, type: 2}
+      name: mike2_mt
+    second: {fileID: 2100000, guid: 78f05ea21fbad984c847b223e297ef57, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: mike_mt
-    second: {fileID: 2100000, guid: dc6876d623affc54c95a3286ea84765f, type: 2}
+      name: mike3_mt
+    second: {fileID: 2100000, guid: 1584c3d3a298b8640bf3598ba505a908, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
